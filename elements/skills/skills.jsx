@@ -100,7 +100,7 @@ const Skills = () => {
         {/* Skill 2 */}
         <div className={styles.skills__content}>
           <h3 className={styles.skills__title}>
-            <i class="ri-database-2-fill"></i> Backend Development
+            <i className="ri-database-2-fill"></i> Backend Development
           </h3>
 
           <div className={styles.skills__info}>

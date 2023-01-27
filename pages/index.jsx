@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/header/header";
 import HomeSection from "../elements/home/home";
+import Qualification from "../elements/qualification/qualification";
 import Skills from "../elements/skills/skills";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <main className="main">
         <HomeSection />
         <Skills />
+        <Qualification />
       </main>
       {/* Footer */}
     </>
